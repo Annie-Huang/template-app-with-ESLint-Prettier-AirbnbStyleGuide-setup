@@ -91,3 +91,11 @@ app.get('/', function(req, res) {
 we got...
 C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
   5:14  warning  Unexpected unnamed function  func-names
+
+
+==========
+with
+  process.exit(1);
+we got...
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
+  7:3  error  Don't use process.exit(); throw an error instead  no-process-exit
