@@ -7,6 +7,7 @@ https://prettier.io/docs/en/options.html
 
 https://plugins.jetbrains.com/plugin/10456-prettier/
 https://prettier.io/docs/en/webstorm.html#running-prettier-on-save-using-file-watcher
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm i -g prettier
 
 https://plugins.jetbrains.com/plugin/7494-eslint/
 
@@ -20,7 +21,28 @@ C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm i -D eslin
 C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npx install-peerdeps --dev eslint-config-airbnb
 
 
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>eslint --init
+? How would you like to use ESLint? To check syntax and find problems
+? What type of modules does your project use? CommonJS (require/exports)
+? Which framework does your project use? None of these
+? Where does your code run? (Press <space> to select, <a> to toggle all, <i> to invert selection)Browser
+? What format do you want your config file to be in? JSON
+Successfully created .eslintrc.json file in C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup
+===============================================================================================================================
+? What type of modules does your project use?
+  JavaScript modules (import/export)        <<< if you use react, vue, es6 syntax etc
+> CommonJS (require/exports)                <<< if you are using node.
+  None of these
 
+? Which framework does your project use? (Use arrow keys)
+> React
+  Vue.js
+  None of these
+
+? What format do you want your config file to be in? (Use arrow keys)
+> JavaScript
+  YAML
+  JSON
 
 
 
