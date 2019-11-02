@@ -11,3 +11,17 @@ https://plugins.jetbrains.com/plugin/7494-eslint/
 
 ===============================================================
 
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm init -y
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node
+
+
+
+
+
+
+
+
+
+
+
+
