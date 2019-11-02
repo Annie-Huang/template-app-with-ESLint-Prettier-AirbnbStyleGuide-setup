@@ -83,3 +83,11 @@ with
    3:5  warning  'x' is assigned a value but never used        no-unused-vars
    3:5  error    'x' is never reassigned. Use 'const' instead  prefer-const
 
+=========
+with
+app.get('/', function(req, res) {
+  res.send('hello');
+});
+we got...
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
+  5:14  warning  Unexpected unnamed function  func-names
