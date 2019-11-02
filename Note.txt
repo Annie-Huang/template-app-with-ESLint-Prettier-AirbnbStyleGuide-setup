@@ -1,0 +1,13 @@
+https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4
+https://github.com/airbnb/javascript
+https://www.npmjs.com/package/eslint-config-airbnb
+
+
+https://plugins.jetbrains.com/plugin/10456-prettier/
+https://prettier.io/docs/en/webstorm.html#running-prettier-on-save-using-file-watcher
+
+https://plugins.jetbrains.com/plugin/7494-eslint/
+
+
+===============================================================
+
