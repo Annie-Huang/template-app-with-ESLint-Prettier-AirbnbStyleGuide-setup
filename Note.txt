@@ -20,6 +20,12 @@ C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm i -D eslin
 (https://www.npmjs.com/package/eslint-config-airbnb)
 C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npx install-peerdeps --dev eslint-config-airbnb
 
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>eslint --init
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm i express
+
+
+
+#######################
 
 C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>eslint --init
 ? How would you like to use ESLint? To check syntax and find problems
@@ -55,6 +61,25 @@ C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm i express
 Now it should go back to only one error
 
 
+with
+const express = require('express');
+const x = 1;
+we got...
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
+  1:1  error    Expected 1 empty line after require statement not followed by another require  import/newline-after-import
+  1:7  warning  'express' is assigned a value but never used                                   no-unused-vars
+  2:7  warning  'x' is assigned a value but never used                                         no-unused-vars
 
 
+========
+
+with
+"const express = require('express');
+
+ let x = 1;"
+ we got...
+ C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
+   1:7  warning  'express' is assigned a value but never used  no-unused-vars
+   3:5  warning  'x' is assigned a value but never used        no-unused-vars
+   3:5  error    'x' is never reassigned. Use 'const' instead  prefer-const
 
