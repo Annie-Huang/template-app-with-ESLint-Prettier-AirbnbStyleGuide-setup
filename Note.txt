@@ -44,6 +44,13 @@ Successfully created .eslintrc.json file in C:\react\template-app-with-ESLint-Pr
   YAML
   JSON
 
+===================================================================================
+If we don't have express installed, we will have two errors:
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
+  1:7   error  'express' is assigned a value but never used  no-unused-vars
+  1:25  error  Unable to resolve path to module 'express'    import/no-unresolved
+
+
 
 
 
