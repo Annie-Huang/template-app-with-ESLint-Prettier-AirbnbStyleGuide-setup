@@ -51,7 +51,8 @@ C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
   1:25  error  Unable to resolve path to module 'express'    import/no-unresolved
 
 
-
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup>npm i express
+Now it should go back to only one error
 
 
 
