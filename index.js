@@ -10,3 +10,9 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('App listening on port 3000!');
 });
+
+const obj = {
+  hello: function() {       // It prefers the format of hello() {
+    console.log('hello');
+  }
+};

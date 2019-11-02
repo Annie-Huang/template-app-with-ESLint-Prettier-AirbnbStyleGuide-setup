@@ -99,3 +99,18 @@ with
 we got...
 C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
   7:3  error  Don't use process.exit(); throw an error instead  no-process-exit
+
+
+===========
+
+with
+const obj = {
+  hello: function() {       // It prefers the format of hello() {
+    console.log('hello');
+  }
+};
+We got...
+C:\react\template-app-with-ESLint-Prettier-AirbnbStyleGuide-setup\index.js
+  14:7  warning  'obj' is assigned a value but never used  no-unused-vars
+  15:3  error    Expected method shorthand                 object-shorthand
+
