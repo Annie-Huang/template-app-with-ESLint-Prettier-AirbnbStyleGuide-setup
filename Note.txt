@@ -1,6 +1,8 @@
 https://gist.github.com/bradtraversy/aab26d1e8983d9f8d79be1a9ca894ab4
 https://github.com/airbnb/javascript
+
 https://www.npmjs.com/package/eslint-config-airbnb
+https://prettier.io/docs/en/options.html
 
 
 https://plugins.jetbrains.com/plugin/10456-prettier/
